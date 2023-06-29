@@ -1,0 +1,32 @@
+{
+    "_***comment1": "The token for your bot, found in the Discord developer portal",
+    "discord_token": "YOURTOKENHERE",
+    
+    
+    "_***comment2": "The path to where your bot is located, for example E:/Data/DiscordMadnessboard/sounds/",
+    "soundfiles_path": "YOURPATHHERE",
+    
+    
+    "_***comment3": "The ID of your server, found by right clicking the server and copying the ID",
+    "discord_server_id": YOURIDHERE,
+    
+    
+    "_comment4": "The prefix that will be used for using commands, default '?'",
+    "command_prefix": "?",
+    
+    
+    "_comment5": "A limit for loops such as combo and spam, defualt 10",
+    "max_spam_count": 10,
+    
+    
+    "_comment6": "The file extension of your soundfiles, only tested with .mp3 and will only work with one type of files for now",
+    "file_extension": ".mp3",
+    
+    
+    "_comment7": "Ya boi has had enough of people writing their commands wrong, set to True to turn that fake face off. Use True or False only.",
+    "rude_bot": "False",
+    
+    
+    
+    "_commentNOTE": "The fields marked with *** are required to run the bot, please follow the installation guide for more information."
+}
