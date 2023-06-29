@@ -2,28 +2,29 @@ import asyncio
 import os
 import random
 import discord
+import json
 
 from mutagen.mp3 import MP3
-from dotenv import load_dotenv
 from discord import FFmpegPCMAudio
 from discord.ext import commands
 from discord.ext import tasks
 from discord.ext.commands import CommandNotFound
 
-load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
-PREFIX = os.getenv("COMMAND_PREFIX")
-EXTENSION = os.getenv("FILE_EXTENSION")
-SERVERID = int(os.getenv("DISCORD_SERVER_ID"))
-SPAM_LIMIT = int(os.getenv("MAX_SPAM_COUNT"))
-rudebotcheck = os.getenv("RUDE_BOT")
+with open('botdata.json', 'r') as jsonbotdata:
+    botdata = json.load(jsonbotdata)
+TOKEN = botdata['discord_token']
+PREFIX = botdata['command_prefix']
+EXTENSION = botdata['file_extension']
+SERVERID = botdata['discord_server_id']
+SPAM_LIMIT = botdata['max_spam_count']
+rudebotcheck = botdata['rude_bot']
 RUDE_BOT = True if rudebotcheck == 'True' else False
 intents = discord.Intents.all()
 intents.members = True
 help_command = commands.DefaultHelpCommand(no_category = 'Commands')
 helpdescription = "These are the commands for the soundboard, therefore clips named the same way will not play if typed in. You can also play any sound file in the directory by typing '" + PREFIX + "nameofthefile'."
 
-soundfilesPath = os.getenv("SOUNDFILES_PATH")
+soundfilesPath = botdata['soundfiles_path']
 soundfiles = os.listdir(soundfilesPath)
 sounds = []
 allSounds = []
