@@ -1,5 +1,5 @@
 <h1>DiscordMadnessboard</h1>
-A local soundboard for your discord server, no strings attached!
+A local soundboard for your discord server, no strings attached!<br>
 A video installation guide will be up shortly!
 <h2>First Things First</h2>
 Download the <a href="https://github.com/Rasmusb94/DiscordMadnessboard/releases">latest release of DiscordMadnessboard</a> and extract the folder to your preferred location.
@@ -54,7 +54,7 @@ Should work with Python 3.10 + but only tested with 3.11
 This should install the required libraries to Python, if it does not work please check your Python installation completed correctly, or use another method such as choco to install the libraries.
 
 <h2>Running the Bot</h2>
-That's it!
+That's it!<br>
 You can now run the soundboard by opening the bot.py file with Python. For troubleshooting you can run the file in debug mode using your developing environment of choice, such as VS Code.
 <h3>Commands</h3>
 The currently available commands are as follows:
@@ -72,5 +72,5 @@ The currently available commands are as follows:
   <li>leave</li>
 </ul>
 <h3>Updating the Soundfiles</h3>
-I've added some sample clips but I encourage you to add your own for the best experience.
+I've added some sample clips but I encourage you to add your own for the best experience.<br>
 Make sure to cut the clips quite close to where the audio starts and naming the clips smartly for the "combo" command.
