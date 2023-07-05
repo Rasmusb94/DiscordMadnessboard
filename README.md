@@ -4,7 +4,7 @@ A video installation guide will be up shortly!
 <h2>First Things First</h2>
 Download the <a href="https://github.com/Rasmusb94/DiscordMadnessboard/releases">latest release of DiscordMadnessboard</a> and extract the folder to your preferred location.
 <h2>Creating Your Bot</h2>
-Go to <a href="www.discord.com/developers/applications">the Discord Developer Portal</a>.
+Go to <a href="https://discord.com/developers/applications">the Discord Developer Portal</a>.
 <ul>
   <li>Click New Application</li>
   <li>Set a name for your bot and accept the T&C</li>
@@ -40,7 +40,7 @@ After doing this, simply right click your server and select "Copy Server ID"</li
 <h3>Python</h3>
 Should work with Python 3.10 + but only tested with 3.11
 <ul>
-  <li>Go to <a href="www.python.org">the Python website</a> and download the latest version of Python 3.11</li>
+  <li>Go to <a href="https://python.org">the Python website</a> and download the latest version of Python 3.11</li>
   <li>When installing, make sure to tick the "Add python.exe to PATH" box, or otherwise do the same as you did for FFMpeg by manually adding Python to path</li>
 </ul>
 <h3>Python Libraries</h3>
