@@ -40,7 +40,7 @@ After doing this, simply right click your server and select "Copy Server ID"</li
 <h3>Python</h3>
 Should work with Python 3.10 + but only tested with 3.11
 <ul>
-  <li>Go to <a href="https://python.org">the Python website</a> and download the latest version of Python 3.11</li>
+  <li>Go to <a href="https://python.org/downloads/">the Python website</a> and download the latest version of Python 3.11</li>
   <li>When installing, make sure to tick the "Add python.exe to PATH" box, or otherwise do the same as you did for FFMpeg by manually adding Python to path</li>
 </ul>
 <h3>Python Libraries</h3>
