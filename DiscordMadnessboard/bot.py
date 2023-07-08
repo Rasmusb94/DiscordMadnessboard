@@ -90,7 +90,7 @@ async def _list(ctx):
     username = ctx.message.author.id
     userid = bot.get_user(username)
     print('Sending list to', ctx.message.author)
-    if len.sounds > 150:
+    if len(sounds) > 150:
         with open("soundfiles.txt", "w") as file:
             file.write('\n'.join(sounds))
         with open("soundfiles.txt", "rb") as file:
