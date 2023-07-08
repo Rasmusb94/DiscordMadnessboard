@@ -1,6 +1,7 @@
 <h1>DiscordMadnessboard</h1>
 A local soundboard for your discord server, no strings attached!<br>
-A video installation guide will be up shortly!
+<h2>Video Installation Guide</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LBQEurX-MUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h2>First Things First</h2>
 Download the <a href="https://github.com/Rasmusb94/DiscordMadnessboard/releases">latest release of DiscordMadnessboard</a> and extract the folder to your preferred location.
 <h2>Creating Your Bot</h2>
