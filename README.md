@@ -49,7 +49,6 @@ Should work with Python 3.10 + but only tested with 3.11
   <li>Type "pip install discord"</li>
   <li>Type "pip install mutagen"</li>
   <li>Type "pip install PyNaCl"</li>
-  <li>Type "pip install ffmpeg"</li>
 </ul>
 This should install the required libraries to Python, if it does not work please check your Python installation completed correctly, or use another method such as choco to install the libraries.
 
