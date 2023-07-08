@@ -1,6 +1,10 @@
 <h1>DiscordMadnessboard</h1>
 A local soundboard for your discord server, no strings attached!<br>
 <h2><a href="https://www.youtube.com/embed/LBQEurX-MUc">Video Installation Guide</a></h2>
+![TimeToDisco(0)_5](https://github.com/Rasmusb94/DiscordMadnessboard/assets/25292470/23d2b64a-c770-45f8-86f1-1bb489513a4b)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LBQEurX-MUc" target="_blank">
+ <img src="http://img.youtube.com/vi/LBQEurX-MUc/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 <h2>First Things First</h2>
 Download the <a href="https://github.com/Rasmusb94/DiscordMadnessboard/releases">latest release of DiscordMadnessboard</a> and extract the folder to your preferred location.
 <h2>Creating Your Bot</h2>
