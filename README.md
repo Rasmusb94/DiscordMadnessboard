@@ -2,10 +2,8 @@
 A local soundboard for your discord server, no strings attached!<br>
 <h2><a href="https://www.youtube.com/embed/LBQEurX-MUc">Video Installation Guide</a></h2>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LBQEurX-MUc" target="_blank">
- <img src="http://img.youtube.com/vi/LBQEurX-MUc/mqdefault.jpg" alt="Watch the video" width="240" height="160" border="10" />
+ <img src="http://img.youtube.com/vi/LBQEurX-MUc/mqdefault.jpg" alt="Video Installation Guide" width="240" height="160" border="10" />
 </a>
-
-[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/LBQEurX-MUc)
 <h2>First Things First</h2>
 Download the <a href="https://github.com/Rasmusb94/DiscordMadnessboard/releases">latest release of DiscordMadnessboard</a> and extract the folder to your preferred location.
 <h2>Creating Your Bot</h2>
