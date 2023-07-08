@@ -12,7 +12,7 @@ Go to <a href="https://discord.com/developers/applications">the Discord Develope
   <li>Go to the "Bot" tab</li>
   <li>Scroll down to "Privileged Gateway Intents" and enable all three options</li>
   <li>Scroll back up and select "Reset Token" to show your bot token, you will need this for the bot data file</li>
-  <li>Invite your bot by going to - www.discordapp.com/oauth2/authorize?client_id={CLIENT_ID}&scope=bot&permissions=35184408799232
+  <li>Invite your bot by going to - discordapp.com/oauth2/authorize?client_id={CLIENT_ID}&scope=bot&permissions=35184408799232
 Replace the {CLIENT_ID} including the brackets with the "Application ID" found under the "General Information" tab in your Application settings.</li>
   <li>Select which server you want to add the bot to.</li>
 </ul>
